@@ -1,9 +1,8 @@
 import numpy as np
 
 def calculate(list):
-    calculations = 1
-
-
-
-
+    if len(list) != 9:
+        raise ValueError("List must contain nine numbers.")
+    else:
+        calculations = 1
     return calculations
